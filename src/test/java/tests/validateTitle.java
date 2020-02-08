@@ -22,6 +22,9 @@ public class validateTitle extends base{
 		mainpage mn=new mainpage(driver);
 		Assert.assertEquals(mn.gettitle().getText(), "FEATURED COURSES");
 		System.out.println("I am maddy");
+		System.out.println("I am maddy1");
+		System.out.println("I am maddy2");
+		System.out.println("I am maddy3");
 	}
 	
 		
