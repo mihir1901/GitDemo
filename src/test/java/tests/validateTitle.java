@@ -21,6 +21,7 @@ public class validateTitle extends base{
 		driver.get("http://qaclickacademy.com/");
 		mainpage mn=new mainpage(driver);
 		Assert.assertEquals(mn.gettitle().getText(), "FEATURED COURSES");
+		System.out.println("I am maddy");
 	}
 	
 		
